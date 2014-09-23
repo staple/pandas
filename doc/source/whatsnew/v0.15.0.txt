@@ -1111,6 +1111,10 @@ Bug Fixes
 - Bug in ``GroupBy.count`` with float32 data type were nan values were not excluded (:issue:`8169`).
 - Bug with stacked barplots and NaNs (:issue:`8175`).
 - Bug in resample with non evenly divisible offsets (e.g. '7s') (:issue:`8371`)
+<<<<<<< HEAD:doc/source/whatsnew/v0.15.0.txt
+=======
+
+>>>>>>> BUG: bug in non-evently divisible offsets when resampling (e.g. '7s') (GH8371):doc/source/v0.15.0.txt
 - Bug in interpolation methods with the ``limit`` keyword when no values needed interpolating (:issue:`7173`).
 - Bug where ``col_space`` was ignored in ``DataFrame.to_string()`` when ``header=False`` (:issue:`8230`).
 - Bug with ``DatetimeIndex.asof`` incorrectly matching partial strings and returning the wrong date (:issue:`8245`).
